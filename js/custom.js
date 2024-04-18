@@ -279,3 +279,29 @@ $(function () {
              document.getElementById("mySidenav").style.width = "0";
          }
 
+
+
+         // Function to scroll back to the top of the page smoothly
+function scrollToTop() {
+  window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+  });
+}
+
+// Function to toggle the visibility of the back-to-top button based on scroll position
+window.onscroll = function() {
+  toggleBackToTopButton();
+};
+
+function toggleBackToTopButton() {
+  var backToTopButton = document.getElementById("backToTopBtn");
+  var whatsapp = document.getElementById("whatsapp");
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      backToTopButton.style.display = "block";
+      whatsapp.style.display = "block";
+  } else {
+      backToTopButton.style.display = "none";
+      whatsapp.style.display = "none";
+  }
+}

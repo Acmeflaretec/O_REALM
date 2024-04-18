@@ -48,10 +48,12 @@ html,
 body {
     color: #898989;
     font-size: 15px;
-    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: Noir Pro, Helvetica, Arial;
     line-height: normal;
     font-weight: 400;
     overflow-x: hidden !important;
+    /* text-align: justify; */
 }
 
 body {
@@ -200,7 +202,7 @@ button {
 }
 
 .bt_main {
-    color: #1b1b1b;
+    color: #ffffff;
     font-size: 17px;
     min-width: 230px;
     float: left;
@@ -251,7 +253,7 @@ button {
 }
 
 .field button:hover, .field button:focus {
-    background: #f6f7a9;
+    background: #4940dc;
     color: #111;
     box-shadow: 0 0 30px 0 rgba(0,0,0,0.1);
     border: solid #fff 2px;
@@ -978,7 +980,7 @@ section .small_head h2 {
 }
 
 .sidenav a:hover {
-  color: #fafba4;
+  color: #4f6dcd;
 }
 
 .sidenav .closebtn {
@@ -1213,7 +1215,8 @@ section .social_icons {
 }
 
 .logo_circle img {
-    width: 25%;
+    width: 40%;
+    margin-top: 10px;
 }
 
 .right_section_bottom_header a {
@@ -1354,7 +1357,7 @@ section .social_icons {
 
 .banner-slider {
     height: auto;
-    background-image: url('../img/slider1.png');
+    background-image: url('../img/O_Realm\ logo_Final-04.jpg');
     width: 100%;
     background-size: cover;
     background-position: top center;
@@ -1364,13 +1367,9 @@ section .social_icons {
 }
 
 
-.carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f6f8a5' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
 
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f6f8a5' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
+
+
 
 @media (min-width: 767px) {
 
@@ -1431,22 +1430,22 @@ section .social_icons {
     }
     
     .carousel-control-prev {
-        border: solid #f6f8a5 8px;
+        border: solid #000000 8px;
         width: 90px;
         height: 90px;
         border-radius: 100%;
         opacity: 1;
         position: relative;
-        color: #f6f8a5;
+        color: #000000;
     }
     
     .carousel-control-next {
-        border: solid #f6f8a5 8px;
+        border: solid #000000 8px;
         width: 90px;
         height: 90px;
         border-radius: 100%;
         opacity: 1;
-        color: #f6f8a5;
+        color: #000000;
         position: relative;
         margin-top: 20px;
     }
@@ -2148,7 +2147,7 @@ footer p {
     height: 10px;
     content: "";
     display: block;
-    background: #fafba4;
+    background: #4f6dcd;
     border-radius: 100%;
     position: absolute;
     left: 0;
@@ -2161,7 +2160,7 @@ footer p {
 
 .footer_link li a:hover,
 .footer_link li a:focus {
-    color: #f6f7a9;
+    color: #4940dc;
 }
 
 .footer_link_intas li {
@@ -2402,7 +2401,7 @@ footer p {
 
 .footer_form form button:hover,
 .footer_form form button:focus {
-    background: #fafba4;
+    background: #4f6dcd;
 }
 
 ul.social_icon {
@@ -2415,14 +2414,14 @@ ul.social_icon {
 }
 
 .cpy {
-    background: #fafba4;
+    background: #000000;
     min-height: 185px;
     padding: 50px 0;
 }
 
 .cpy p {
     margin: 25px 0 0 0;
-    color: #060606;
+    color: #ffffff;
     font-weight: 500;
     font-size: 16px;
 }
@@ -4730,7 +4729,8 @@ section .gray_font {
     line-height: 50px;
     color: #fff;
     font-weight: 500;
-    padding: 0 15px font-size: 14px;
+    padding: 0 15px ;
+    font-size: 14px;
     border-radius: 5px;
     position: relative;
 }
@@ -8669,7 +8669,7 @@ form button {
 
 form button:hover,
 form button:focus {
-    background: #f6f7a9;
+    background: #4940dc;
     color: #2d2d2d;
 }
 
@@ -8677,12 +8677,12 @@ form button:focus {
     font-weight: 600;
     width: 150px;
     height: 50px;
-    background: #f6f7a9;
+    background: #000000;
     text-align: center;
     line-height: 50px;
     font-size: 15px;
     text-transform: uppercase;
-    color: #3d3d3c;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     margin-top: 30px;
     float: left;
@@ -8721,7 +8721,7 @@ form button:focus {
 
 .decorate_blog_bt:hover,
 .decorate_blog_bt:focus {
-    background: #f6f7a9;
+    background: #4940dc;
 }
 
 .heading_s1 p {
@@ -8764,7 +8764,7 @@ form button:focus {
     width: 100%;
     padding: 25px 20px;
     margin-top: 65px;
-    border-bottom: solid #f6f7a9 5px;
+    border-bottom: solid #000000 5px;
     background: #fff;
     box-shadow: 0 0 60px -10px rgba(0,0,0,.15);
 }
@@ -8813,7 +8813,7 @@ form button:focus {
 }
 
 .cont_info i {
-    background: #fafba4;
+    background: #4f6dcd;
     width: 48px;
     height: 48px;
     line-height: 48px;
@@ -8911,7 +8911,7 @@ form button:focus {
 
 #inner_pade.banner-slider {
     height: 485px;
-    background-image: url('../images/inner_page_banner.png');
+    /* background-image: url('../images/inner_page_banner.png'); */
     width: 100%;
     background-size: auto;
     background-position: right top;
@@ -9002,3 +9002,32 @@ section .cont_info span {
 
 
 
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#backToTopBtn:hover {
+    background-color: #0056b3;
+}
+#whatsapp{
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 99;
+    width: 50px;
+    height: 50px;
+}

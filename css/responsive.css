@@ -4623,7 +4623,7 @@
     }
 
     .logo_circle img {
-        width: 100px;
+        width: 130px;
     }
 
     .right_head_top {
@@ -4774,7 +4774,7 @@
         color: #4c4c4b;
         text-transform: uppercase;
         font-family: 'Righteous', cursive;
-        line-height: 40px;
+        line-height: 45px;
         font-weight: normal;
         display: flex;
     }
@@ -4817,22 +4817,22 @@
     }
 
     .carousel-control-prev {
-        border: solid #f6f8a5 8px;
+        border: solid #000000 8px;
         width: 90px;
         height: 90px;
         border-radius: 100%;
         opacity: 1;
         position: relative;
-        color: #f6f8a5;
+        color: #000000;
     }
 
     .carousel-control-next {
-        border: solid #f6f8a5 8px;
+        border: solid #000000 8px;
         width: 90px;
         height: 90px;
         border-radius: 100%;
         opacity: 1;
-        color: #f6f8a5;
+        color: #000000;
         position: relative;
         margin-top: 20px;
     }
@@ -4845,6 +4845,9 @@
     .navClass{
         display: flex;
         align-items: center;
+    }
+    .bt{
+        margin-bottom: 110px;
     }
     
 }

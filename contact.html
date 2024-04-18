@@ -53,6 +53,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
+
 </head>
 
 <body id="default_theme" class="home_page1">
@@ -80,8 +81,23 @@
                </div>
                <div class="col-md-5 col-2">
                   <div class="float-right">
-                     <span class="toggle_icon" style="cursor:pointer" onclick="openNav()"><img src="img/menu_icon.png"
-                           alt="#" /></span>
+                     <span class="toggle_icon" style="cursor:pointer" onclick="openNav()"><svg width="69px"
+                           height="69px" viewBox="-13.92 -13.92 51.84 51.84" fill="none"
+                           xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-width="0.00024000000000000003">
+                           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                           <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                           <g id="SVGRepo_iconCarrier">
+                              <path
+                                 d="M2 5.5C2 4.94772 2.44772 4.5 3 4.5H21C21.5523 4.5 22 4.94772 22 5.5V6.5C22 7.05228 21.5523 7.5 21 7.5H3C2.44772 7.5 2 7.05228 2 6.5V5.5Z"
+                                 fill="#000000"></path>
+                              <path
+                                 d="M2 11.5C2 10.9477 2.44772 10.5 3 10.5H21C21.5523 10.5 22 10.9477 22 11.5V12.5C22 13.0523 21.5523 13.5 21 13.5H3C2.44772 13.5 2 13.0523 2 12.5V11.5Z"
+                                 fill="#000000"></path>
+                              <path
+                                 d="M3 16.5C2.44772 16.5 2 16.9477 2 17.5V18.5C2 19.0523 2.44772 19.5 3 19.5H21C21.5523 19.5 22 19.0523 22 18.5V17.5C22 16.9477 21.5523 16.5 21 16.5H3Z"
+                                 fill="#000000"></path>
+                           </g>
+                        </svg></span>
                   </div>
                </div>
             </div>
@@ -180,27 +196,34 @@
    <!-- end section -->
 
 
-   <!-- cpy -->
-   <div class="cpy">
+    <!-- cpy -->
+    <div class="cpy">
       <div class="container">
          <div class="row">
             <div class="col-md-12">
                <div class="full center">
                   <ul class="social_icon">
-                     <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                     <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                     <li><a href="#"><i style="color: #ffffff;" class="fa fa-facebook-f"></i></a></li>
+                     <li><a href="#"><i style="color: #ffffff;" class="fa fa-linkedin"></i></a></li>
+                     <li><a href="#"><i style="color: #ffffff;" class="fa fa-instagram"></i></a></li>
+                     <li><a href="#"><i style="color: #ffffff;" class="fa fa-youtube-play"></i></a></li>
                   </ul>
                </div>
                <div class="full text_align_center">
-                  <p>© 2024 All Rights Reserved. <a href="https://html.design">O_REALM</a></p>
+                  <p style="color: #ffffff;">© 2024 All Rights Reserved. <a href="https://html.design"
+                        style="color: #ffffff;">O_REALM</a></p>
                </div>
             </div>
          </div>
       </div>
    </div>
    <!-- end cpy -->
+
+   <a href="https://api.whatsapp.com/send?phone=7994457775"><img  id="whatsapp" src="images/whatsapp.png" alt=""></a>
+   <button onclick="scrollToTop()" id="backToTopBtn" title="Back to Top"><i style="color: white;" class="fa fa-arrow-up"
+         aria-hidden="true"></i>
+   </button>
+
    <!-- jQuery (necessary for Bootstrap's JavaScript) -->
    <script src="js/jquery.min.js"></script>
    <script src="js/popper.min.js"></script>
@@ -214,7 +237,6 @@
    <!-- custom js -->
    <script src="js/custom.js"></script>
    <script src="js/contact.js"></script>
-
 </body>
 
 </html>

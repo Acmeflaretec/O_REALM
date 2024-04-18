@@ -18,12 +18,12 @@
 }
 
 .bt_main {
-    background: #f6f7a9;
+    background: #000000;
 }
 
 .bt_main:hover,
 .bt_main:focus {
-    background: #1b1b1b;
+    background: #3a3636;
     color: #fff;
 }
 
