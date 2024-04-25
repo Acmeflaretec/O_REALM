@@ -876,7 +876,7 @@ section .small_head h2 {
 
 .header_top {
     min-height: 50px;
-    padding: 30px 0 30px;
+    padding:10px;
     border-bottom: solid rgba(255,255,255,.1) 1px;
 }
 
@@ -1357,7 +1357,7 @@ section .social_icons {
 
 .banner-slider {
     height: auto;
-    background-image: url('../img/O_Realm\ logo_Final-04.jpg');
+    background-image: url('../img/O_Realm\ logo_Final-01.jpg');
     width: 100%;
     background-size: cover;
     background-position: top center;
@@ -1383,7 +1383,7 @@ section .social_icons {
     }
     
     .left_blog_top {
-        background: #f7f8f8;
+        background: #ced6d1;
         width: 815px;
         height: 585px;
         padding-left: 220px;
@@ -1392,7 +1392,7 @@ section .social_icons {
         z-index: 9;
         padding-top: 125px;
         float: left;
-        margin-top: 221px;
+        margin-top: 70px;
     }
     
     .left_blog_top p {
@@ -1408,7 +1408,7 @@ section .social_icons {
     .right_blog_top {
         float: right;
         margin-right: 210px;
-        box-shadow: -35px 30px 0 0 #fff;
+        box-shadow: -35px 30px 0 0;
         margin-top: 90px;
         transition: ease all 0.5s;
     }
@@ -3053,10 +3053,10 @@ section .social_icons li {
     }
 }
 
-.header_top {
+/* .header_top {
     min-height: 50px;
     padding: 35px 0 35px;
-}
+} */
 
 .header_top p {
     font-size: 14px;
@@ -9030,4 +9030,18 @@ section .cont_info span {
     z-index: 99;
     width: 50px;
     height: 50px;
+}
+
+
+
+.nav-details{
+    justify-content: end;
+}
+.navbar-nav{
+    font-size: large;
+    align-items: center;
+}
+.nav-items-padding{
+    margin-left: 15px;
+    margin-right: 15px;
 }

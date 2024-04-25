@@ -56,50 +56,29 @@
    </head>
    
    <body id="default_theme" class="home_page1">
-      <!-- header -->
-      <div id="mySidenav" class="sidenav">
-         <ul class="menu_sidebar">
-            <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
-            <li><a href="index.html">01. Home</a></li>
-            <li><a href="about.html">02. About</i></a></li>
-            <li><a href="what_we_do.html">03. What we do</a></li>
-            <!-- <li><a href="testimonial.html"> Testimonial</a></li> -->
-            <li><a href="contact.html">04. Contact Us</a></li>
-         </ul>
-      </div>
       <header class="header">
          <div class="header_top">
             <div class="container">
-               <div class="row navClass">
-                  <div class="col-md-7 col-10">
-                     <div class="full">
-                        <div class="logo_circle">
-                           <a href="index.html"><img class="img-responsive" src="img/Orealm_bk.png" alt="#" /></a>
-                        </div>
+              
+               <nav class="navbar navbar-expand-lg navbar-light">
+                  <div class="logo_circle">
+                     <a href="index.html"><img class="img-responsive" src="img/Orealm_bk.png" alt="#" /></a>
+                  </div>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse nav-details" id="navbarNavAltMarkup">
+                     <div class="navbar-nav">
+                        <a class="nav-item nav-items-padding nav-link " href="index.html">Home <span
+                              class="sr-only">(current)</span></a>
+                        <a class="nav-item  nav-link nav-items-padding" href="about.html">About</a>
+                        <a class="nav-item nav-items-padding nav-link active" href="what_we_do.html">Services</a>
+                        <a class="nav-item nav-items-padding nav-link" href="blog.html">Blog</a>
+                        <a class="nav-item nav-items-padding nav-link" href="contact.html">Contact Us</a>
                      </div>
                   </div>
-                  <div class="col-md-5 col-2">
-                     <div class="float-right">
-                        <span class="toggle_icon" style="cursor:pointer" onclick="openNav()"><svg width="69px"
-                              height="69px" viewBox="-13.92 -13.92 51.84 51.84" fill="none"
-                              xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-width="0.00024000000000000003">
-                              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                              <g id="SVGRepo_iconCarrier">
-                                 <path
-                                    d="M2 5.5C2 4.94772 2.44772 4.5 3 4.5H21C21.5523 4.5 22 4.94772 22 5.5V6.5C22 7.05228 21.5523 7.5 21 7.5H3C2.44772 7.5 2 7.05228 2 6.5V5.5Z"
-                                    fill="#000000"></path>
-                                 <path
-                                    d="M2 11.5C2 10.9477 2.44772 10.5 3 10.5H21C21.5523 10.5 22 10.9477 22 11.5V12.5C22 13.0523 21.5523 13.5 21 13.5H3C2.44772 13.5 2 13.0523 2 12.5V11.5Z"
-                                    fill="#000000"></path>
-                                 <path
-                                    d="M3 16.5C2.44772 16.5 2 16.9477 2 17.5V18.5C2 19.0523 2.44772 19.5 3 19.5H21C21.5523 19.5 22 19.0523 22 18.5V17.5C22 16.9477 21.5523 16.5 21 16.5H3Z"
-                                    fill="#000000"></path>
-                              </g>
-                           </svg></span>
-                     </div>
-                  </div>
-               </div>
+               </nav>
             </div>
          </div>
       </header>
